@@ -4,20 +4,20 @@
 <li>In the page folder there is a basic Page from which the others will be inherited. They describe the elements and actions on the page.
 <li>In the Test folder is the base page for the legacy. And also the page with the main test. With which commands all actions are started.
 <li>To run the tests, add the following to pom.xml:
-- For the work of Seleniuma
+<ul> For the work of Seleniuma
 <Dependency>
 <Group_idigroup> org.seleniumhq.selenium </ group_idigroup>
 <Artefact> selenium Java </ artifact>
 <Version> 3.11.0 </ version>
 </ Dependency>
-- To run tests
+<ul> To run tests
 <Dependency>
 <Group_idigroup> org.testng </ group_id>
 <Artifact> TestNG </ artifact>
 <Version> 6.14.3 </ version>
 <Sphere> Test </ Sphere>
 </ Dependency>
-- For the browser manager
+<ul> For the browser manager
 <Dependency>
 <GroupID> io.github.bonigarcia </ group_id>
 <Artifact> webdrivermanager </ artifact>
